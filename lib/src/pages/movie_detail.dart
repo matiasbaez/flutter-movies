@@ -66,8 +66,6 @@ class MovieDetailPage extends StatelessWidget {
     final TextTheme textTheme = Theme.of(context).textTheme;
     final screenSize = MediaQuery.of(context).size;
 
-    movie.heroId = '${ movie.title }-${ movie.id }';
-
     return Container(
       margin: EdgeInsets.only( top: 20 ),
       padding: EdgeInsets.symmetric(horizontal: 20.0),
